@@ -30,11 +30,19 @@ Sebagai tips, Anda juga dapat membangun indikator loading menggunakan Web compon
   
 
 ### Run Server
-<code> npm install webpack-dev-server --save-dev </code>
-<br>
-<code>  npm run start-dev </code>
-<br>
-Project is running at <code> http://localhost:8080/ </code>
+
+1. First, install webpack-dev-server by running the following command:
+    ```Terminal
+    npm install webpack-dev-server --save-dev
+    ```
+
+2. After installing webpack-dev-server, start the server by running:
+    ```Terminal
+    npm run start-dev
+    ```
+
+3. Once the server is running, you can access your project at [http://localhost:8080/](http://localhost:8080/)
+
 
 
 <h3 align="left">Languages and Tools:</h3>
