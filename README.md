@@ -1,96 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submission: Integrasi Notes App dengan RESTful API</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
+<h1>Submission: Integrasi Notes App dengan RESTful API</h1>
+Project ini adalah Submission dari materi [Belajar Fundamental Front-End Web Development] [(https://www.dicoding.com/academies/123)](https://www.dicoding.com/academies/163/tutorials/7443).
 
-        header {
-            background-color: #007bff;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
+### Kriteria
+#### Berikut kriteria submission yang harus Anda penuhi:
 
-        h1 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
+Kriteria Wajib 1: Pertahankan Kriteria Submission Sebelumnya
+Ini adalah lanjutan dari submission sebelumnya. Pastikan proyek yang telah Anda bangun masih memenuhi seluruh kriteria dari submission sebelumnya.
 
-        section {
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 800px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+Kriteria Wajib 2: Memanfaatkan RESTful API sebagai Sumber Data
+Aplikasi harus memanfaatkan RESTful API yang telah kami sediakan sebagai sumber data. RESTful API yang digunakan adalah https://notes-api.dicoding.dev/v2. Dokumentasi API bisa Anda akses pada tautan tersebut.
+Ada beberapa fitur yang wajib Anda adopsi dengan API di atas.
+<ul>
+<li>Membuat atau menambahkan catatan baru.</li>
+<li>Mendapatkan dan menampilkan daftar catatan.</li>
+<li>Menghapus catatan yang tersimpan.</li>
+</ul>
 
-        h2 {
-            font-size: 1.5em;
-            margin-bottom: 15px;
-            color: #007bff;
-        }
+Kriteria Wajib 3: Menggunakan webpack sebagai Module Bundler
+Pengembangan aplikasi Notes App harus menggunakan webpack sebagai module bundler dengan spesifikasi berikut:
+<li>Aplikasi harus dapat dijalankan untuk fase development dengan perintah npm run start-dev dan memanfaatkan webpack-dev-server.</li>
+<li>Aplikasi harus dapat di-build untuk fase production dengan perintah npm run build.</li>
 
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
+Kriteria Wajib 4: Menggunakan Fetch API
+Menggunakan Fetch API untuk melakukan Asynchronous JavaScript Request dalam berinteraksi dengan API https://notes-api.dicoding.dev/v2.
 
-        code {
-            background-color: #f8f9fa;
-            padding: 2px 5px;
-            border-radius: 3px;
-            font-family: Consolas, monospace;
-        }
+Kriteria Wajib 5: Memiliki Indikator Loading
+Anda diwajibkan untuk menampilkan indikator loading saat melakukan proses request HTTP dalam menunggu hasilnya. Contohnya menampilkan indikator loading saat user sedang masuk aplikasi atau buat akun baru.
+Sebagai tips, Anda juga dapat membangun indikator loading menggunakan Web component.
+  
 
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
+### Run Server
 
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Submission: Integrasi Notes App dengan RESTful API</h1>
-    </header>
-    <section>
-        <h2>Kriteria</h2>
-        <ol>
-            <li><strong>Pertahankan Kriteria Submission Sebelumnya:</strong> Pastikan proyek yang telah Anda bangun masih memenuhi seluruh kriteria dari submission sebelumnya.</li>
-            <li><strong>Memanfaatkan RESTful API sebagai Sumber Data:</strong> Aplikasi harus memanfaatkan RESTful API yang telah kami sediakan sebagai sumber data. RESTful API yang digunakan adalah <a href="https://notes-api.dicoding.dev/v2" target="_blank" rel="noopener noreferrer">notes-api.dicoding.dev/v2</a>.</li>
-            <li><strong>Menggunakan webpack sebagai Module Bundler:</strong> Pengembangan aplikasi Notes App harus menggunakan webpack sebagai module bundler.</li>
-            <li><strong>Menggunakan Fetch API:</strong> Menggunakan Fetch API untuk melakukan Asynchronous JavaScript Request dalam berinteraksi dengan API.</li>
-            <li><strong>Memiliki Indikator Loading:</strong> Anda diwajibkan untuk menampilkan indikator loading saat melakukan proses request HTTP dalam menunggu hasilnya.</li>
-        </ol>
-    </section>
-    <section>
-        <h2>Run Server</h2>
-        <ol>
-            <li>First, install webpack-dev-server by running the following command:
-                <pre><code>npm install webpack-dev-server --save-dev</code></pre>
-            </li>
-            <li>After installing webpack-dev-server, start the server by running:
-                <pre><code>npm run start-dev</code></pre>
-            </li>
-            <li>Once the server is running, you can access your project at <a href="http://localhost:8080/" target="_blank" rel="noopener noreferrer">http://localhost:8080/</a></li>
-        </ol>
-    </section>
-    <footer>
-        <p>Author: Rotua Eka Wati Br. Sitorus</p>
-    </footer>
-</body>
-</html>
+1. First, install webpack-dev-server by running the following command:
+    ```Terminal
+    npm install webpack-dev-server --save-dev
+    ```
+
+2. After installing webpack-dev-server, start the server by running:
+    ```Terminal
+    npm run start-dev
+    ```
+
+3. Once the server is running, you can access your project at [http://localhost:8080/](http://localhost:8080/)
+
+
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> 
+  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
+  </a> 
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+  </a>
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> 
+  </a>
+  <a href="https://webpack.js.org" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/> 
+  </a>
+</p>
+
+### Author
+<ul>
+  <li>Rotua Eka Wati Br. Sitorus</li>
+</ul>
