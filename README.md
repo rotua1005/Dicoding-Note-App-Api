@@ -24,12 +24,14 @@ Pengembangan aplikasi Notes App harus menggunakan webpack sebagai module bundler
 <b>Kriteria Wajib 4: Menggunakan Fetch API
 Menggunakan Fetch API untuk melakukan Asynchronous JavaScript Request dalam berinteraksi dengan API https://notes-api.dicoding.dev/v2.
 
-<n>Kriteria Wajib 5: Memiliki Indikator Loading
+<b>Kriteria Wajib 5: Memiliki Indikator Loading
 Anda diwajibkan untuk menampilkan indikator loading saat melakukan proses request HTTP dalam menunggu hasilnya. Contohnya menampilkan indikator loading saat user sedang masuk aplikasi atau buat akun baru.
 Sebagai tips, Anda juga dapat membangun indikator loading menggunakan Web component.
   
 
-### Web
+### Run Server
+<code> npm install webpack-dev-server --save-dev </code>
+
 
 
 <h3 align="left">Languages and Tools:</h3>
