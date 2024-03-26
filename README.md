@@ -4,10 +4,10 @@ Project ini adalah Submission dari materi [Belajar Fundamental Front-End Web Dev
 ### Kriteria
 #### Berikut kriteria submission yang harus Anda penuhi:
 
-<b>Kriteria Wajib 1: Pertahankan Kriteria Submission Sebelumnya
+Kriteria Wajib 1: Pertahankan Kriteria Submission Sebelumnya
 Ini adalah lanjutan dari submission sebelumnya. Pastikan proyek yang telah Anda bangun masih memenuhi seluruh kriteria dari submission sebelumnya.
 
-<b>Kriteria Wajib 2: Memanfaatkan RESTful API sebagai Sumber Data</b>
+Kriteria Wajib 2: Memanfaatkan RESTful API sebagai Sumber Data
 Aplikasi harus memanfaatkan RESTful API yang telah kami sediakan sebagai sumber data. RESTful API yang digunakan adalah https://notes-api.dicoding.dev/v2. Dokumentasi API bisa Anda akses pada tautan tersebut.
 Ada beberapa fitur yang wajib Anda adopsi dengan API di atas.
 <ul>
@@ -16,22 +16,23 @@ Ada beberapa fitur yang wajib Anda adopsi dengan API di atas.
 <li>Menghapus catatan yang tersimpan.</li>
 </ul>
 
-<b>Kriteria Wajib 3: Menggunakan webpack sebagai Module Bundler
+Kriteria Wajib 3: Menggunakan webpack sebagai Module Bundler
 Pengembangan aplikasi Notes App harus menggunakan webpack sebagai module bundler dengan spesifikasi berikut:
 <li>Aplikasi harus dapat dijalankan untuk fase development dengan perintah npm run start-dev dan memanfaatkan webpack-dev-server.</li>
 <li>Aplikasi harus dapat di-build untuk fase production dengan perintah npm run build.</li>
 
-<b>Kriteria Wajib 4: Menggunakan Fetch API
+Kriteria Wajib 4: Menggunakan Fetch API
 Menggunakan Fetch API untuk melakukan Asynchronous JavaScript Request dalam berinteraksi dengan API https://notes-api.dicoding.dev/v2.
 
-<b>Kriteria Wajib 5: Memiliki Indikator Loading
+Kriteria Wajib 5: Memiliki Indikator Loading
 Anda diwajibkan untuk menampilkan indikator loading saat melakukan proses request HTTP dalam menunggu hasilnya. Contohnya menampilkan indikator loading saat user sedang masuk aplikasi atau buat akun baru.
 Sebagai tips, Anda juga dapat membangun indikator loading menggunakan Web component.
   
 
 ### Run Server
 <code> npm install webpack-dev-server --save-dev </code>
-
+<code>  npm run start-dev </code>
+Project is running at <code> http://localhost:8080/ </code>
 
 
 <h3 align="left">Languages and Tools:</h3>
