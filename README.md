@@ -7,7 +7,7 @@ Project ini adalah Submission dari materi [Belajar Fundamental Front-End Web Dev
 <b>Kriteria Wajib 1: Pertahankan Kriteria Submission Sebelumnya
 Ini adalah lanjutan dari submission sebelumnya. Pastikan proyek yang telah Anda bangun masih memenuhi seluruh kriteria dari submission sebelumnya.
 
-<b>Kriteria Wajib 2: Memanfaatkan RESTful API sebagai Sumber Data
+<b>Kriteria Wajib 2: Memanfaatkan RESTful API sebagai Sumber Data</b>
 Aplikasi harus memanfaatkan RESTful API yang telah kami sediakan sebagai sumber data. RESTful API yang digunakan adalah https://notes-api.dicoding.dev/v2. Dokumentasi API bisa Anda akses pada tautan tersebut.
 Ada beberapa fitur yang wajib Anda adopsi dengan API di atas.
 <ul>
