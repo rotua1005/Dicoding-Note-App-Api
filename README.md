@@ -31,7 +31,9 @@ Sebagai tips, Anda juga dapat membangun indikator loading menggunakan Web compon
 
 ### Run Server
 <code> npm install webpack-dev-server --save-dev </code>
+<br>
 <code>  npm run start-dev </code>
+<br>
 Project is running at <code> http://localhost:8080/ </code>
 
 
