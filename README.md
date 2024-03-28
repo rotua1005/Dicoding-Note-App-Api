@@ -33,7 +33,7 @@ Sebagai tips, Anda juga dapat membangun indikator loading menggunakan Web compon
 
 1. First, install webpack-dev-server by running the following command:
     ```Terminal
-    npm install webpack-dev-server --save-dev
+    npm install
     ```
 
 2. After installing webpack-dev-server, start the server by running:
